@@ -1,0 +1,215 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+body {
+    background-color: #aef8ec;
+}
+
+a {
+    text-decoration: none;
+    color: #8093f1
+}
+
+.logoinicio {
+    width: 7rem;
+}
+
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #8093f1 !important;
+}
+
+/*Animaciones*/
+.nav-item:hover{
+    background-color:#72DDF7;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+}
+
+#titulo {
+    color: #72DDF7;
+    text-align: left;
+    background-image: url(../Img/Ifrente.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    height: 25rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    font-size: 3.5rem;
+
+}
+
+.intro {
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+#pie {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    padding-top: 4rem;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+/*Contacto*/
+.datos {
+    font-family: 'Roboto', sans-serif;
+    padding: 2rem;
+
+
+
+}
+
+.datos2 {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #8093f1
+}
+/*ubicacion*/
+
+
+
+.galeria {
+    display: flex;
+    flex-direction: row;
+}
+
+.fotos img {
+    width: 20rem;
+
+}
+
+/* Bootstrap */
+
+@media (max-width: 768px) {
+    .logoinicio {
+        width: 5rem;
+    }
+
+    .intro {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .fotos img {
+        width: 10rem;
+    
+    }
+}
+
+/* Bootstrap */
+
+
+/*
+#body-galeria {
+    display: grid;
+    grid-template-areas:
+    "cabecera"
+    "galeria"
+    "footer";
+    grid-template-areas: repeat (1, 1fr);
+    background-color: #72DDF7;
+}
+
+
+#header-galeria {
+    grid-area: cabecera;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+   #header-galeria {
+    flex-direction: row;
+    
+   }
+    
+}
+
+.menu__nav{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+
+    
+
+    }
+#fotos {
+    grid-area: galeria;
+
+}
+
+
+#fotos h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.fotos img {
+    width: 20rem;
+    
+}
+#pie {
+    grid-area: footer;
+}
+*/
+
+/*Animaciones*/
+/* #menu__nav li a:hover {
+    background-color: #72DDF7;
+    padding: 3px;
+    cursor: pointer;
+} */
+
+#carousel {
+    width: 800px;
+}
+h2 {
+    text-align: center;
+    color: #8093f1
+
+}
+h3{ 
+    text-align: center;
+    color: #8093f1
+}
+.mapa {
+    display: flex;
+    justify-content: center;
+}
+
