@@ -68,7 +68,7 @@ img {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
-    padding-top: 4rem;
+    padding-top: 5rem;
 }
 
 ul {
@@ -101,23 +101,18 @@ ul {
     width: 20rem;
 
 }
+/*Comodidades*/
 
-/* Bootstrap */
-
-@media (max-width: 768px) {
-    .logoinicio {
-        width: 5rem;
-    }
-
-    .intro {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-
-    .fotos img {
-        width: 10rem;   
-    }
+.servicios {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: space-around;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
 }
+
+
 #carousel {
     width: 800px;
 }
@@ -134,86 +129,38 @@ h3{
     display: flex;
     justify-content: center;
 }
-.mascota {
-    display: flex;
-    flex-direction: row;
+
+/* Bootstrap */
+
+@media (max-width: 768px) {
+    .logoinicio {
+        width: 5rem;
+    }
+
+    .intro {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .fotos img {
+        width: 10rem;   
+    }
+    .servicios {
+       display: flex;
+       flex-direction: column;
+    }
+    #carousel {
+        width: 300px;
+    }
 }
+
+
 
 
 
 /* Bootstrap */
 
 
-/*
-#body-galeria {
-    display: grid;
-    grid-template-areas:
-    "cabecera"
-    "galeria"
-    "footer";
-    grid-template-areas: repeat (1, 1fr);
-    background-color: #72DDF7;
-}
-
-
-#header-galeria {
-    grid-area: cabecera;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 3rem;
-}
-
-@media screen and (min-width: 768px) {
-   #header-galeria {
-    flex-direction: row;
-    
-   }
-    
-}
-
-.menu__nav{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-
-
-    
-
-    }
-#fotos {
-    grid-area: galeria;
-
-}
-
-
-#fotos h2 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-}
-.fotos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-.fotos img {
-    width: 20rem;
-    
-}
-#pie {
-    grid-area: footer;
-}
-*/
-
-/*Animaciones*/
-/* #menu__nav li a:hover {
-    background-color: #72DDF7;
-    padding: 3px;
-    cursor: pointer;
-} */
 
 
 
