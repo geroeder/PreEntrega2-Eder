@@ -1,0 +1,28 @@
+/*paleta de colores*/
+$color-primario: #aef8ec;
+$color-secundario: #8093f1;
+$color-terciario: #72DDF7;
+
+
+/*Fuente*/
+$fuenteprincipal:'Roboto', sans-serif;
+
+/*with*/
+$size: 7rem;
+
+/*margenes*/
+$espaciochico: 2rem;
+$espaciomedio: 4rem;
+$espaciogrande: 5rem;
+
+/*MIxin*/
+@mixin flex-row {
+   display: flex;
+   flex-direction: row;
+   
+}
+
+/*margin-top: 2rem;
+margin-top: 4rem;
+  margin-bottom: 5rem;
+*/

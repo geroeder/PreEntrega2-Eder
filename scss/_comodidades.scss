@@ -1,0 +1,23 @@
+.servicios {
+ @include flex-row;
+  gap: 2rem;
+  justify-content: space-around;
+  margin-top: $espaciomedio;
+  margin-bottom: $espaciomedio;
+}
+
+.btng {
+    @extend .btn;
+    display: block;
+    margin: auto;
+    background-color: $color-terciario
+}
+
+
+@media (max-width: 768px) {
+    .servicios {
+        display: flex;
+        flex-direction: column;
+     }
+     
+    }

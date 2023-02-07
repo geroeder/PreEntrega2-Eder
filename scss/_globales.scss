@@ -1,0 +1,42 @@
+body {
+    font-family: $fuenteprincipal;
+    background-color: $color-primario;
+    
+}
+
+.nav-link,
+.nav-link.active {
+    color: $color-secundario !important;
+    &:hover { 
+        background-color: $color-terciario;
+        cursor: pointer;
+
+    }
+}  
+
+.logoinicio {
+    width: $size;
+}
+
+h2,
+h3 {
+    text-align: center;
+    color: $color-secundario;
+
+}
+.btn {
+    border: solid 1px $color-secundario;
+    background-color: $color-secundario;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+

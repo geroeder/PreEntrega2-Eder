@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/*paleta de colores*/
+/*tamaños para pantalla*/
+/*Fuente*/
+/*with*/
+/*MIxin
+@mixin flex-columna {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}*/
+#titulo {
+  color: #72DDF7;
+  text-align: left;
+  background-image: url(../Img/Ifrente.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+  height: 25rem;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  font-size: 3.5rem;
+  margin-top: 2rem;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #aef8ec;
+}
+
+.logoinicio {
+  width: 7rem;
+}
+
+.nav-link,
+.nav-link.active {
+  color: #8093f1 !important;
+}
+.nav-link:hover,
+.nav-link.active:hover {
+  color: #72DDF7;
+}
+
+#carousel {
+  width: 50rem;
+}
+
+#titulo {
+  color: #72DDF7;
+  text-align: left;
+  background-image: url(../Img/Ifrente.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+  height: 25rem;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  font-size: 3.5rem;
+  margin-top: 2rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

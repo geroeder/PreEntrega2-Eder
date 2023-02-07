@@ -1,0 +1,46 @@
+#titulo {
+    color: #72DDF7;
+    text-align: left;
+    background-image: url(../Img/Ifrente.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    height: 25rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    font-size: 3.5rem;
+    margin-top: $espaciochico;
+}
+
+.intro {
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: $espaciochico;
+}
+
+#pie {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    padding-top: $espaciogrande;
+}
+
+@media (max-width: 768px) {
+    .logoinicio {
+        width: 5rem;
+    }
+
+    .intro {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .fotos img {
+        width: 10rem;   
+    }
+}
